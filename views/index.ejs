@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>This is an EJS page</h1>
+
+
+	<% for (let i = 0; i< studentsArray.length; i++){ %>
+		<div class="col-sm-12 student">
+			<a href="">
+				<%= studentsArray[i] %>
+			</a>
+		</div>
+	<% } %>
+
+
+
+	<%= title %>
+	
+	<% for(let i = 0; i < 10; i++){ %>
+		<li><%= i %></li>
+	<% } %>
+
+</body>
+</html>
